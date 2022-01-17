@@ -1,0 +1,49 @@
+.heading{
+    width: 100%;
+}
+
+.big_image{
+    width: 100%;
+}
+
+#start , #status{
+    width: 30%;
+    font-size: 30px;
+    border: 0.5px solid black;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+.Instruction_image{
+    display: inline-block;
+    width: 40%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(192, 192, 192); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(192, 192, 192); }
+
+ video{
+   background: url('game_console.png');
+   background-size: cover;
+   background-position: center;
+   padding: 25px;
+ }
